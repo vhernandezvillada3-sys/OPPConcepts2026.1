@@ -33,24 +33,31 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="OPPConcepts.Backend.SalaryEmployee">
-    <Position X="11.25" Y="3.5" Width="1.5" />
+    <Position X="7.75" Y="4.25" Width="1.75" />
     <TypeIdentifier>
       <HashCode>ACAAACAAAAAAAAAEAAAAAAAAAAAAAAAIAAAAAAQAAAA=</HashCode>
       <FileName>SalaryEmployee.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="OPPConcepts.Backend.HourlyEmployee">
-    <Position X="9.25" Y="0.75" Width="1.5" />
+    <Position X="8" Y="0.5" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AIAABAAAAAAAAAAEAAgAAAAAAABEAAAIAAAAAAAAAAE=</HashCode>
       <FileName>HourlyEmployee.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="OPPConcepts.Backend.CommisionEmployee">
-    <Position X="0.75" Y="2.5" Width="2.5" />
+    <Position X="0.75" Y="2.5" Width="2.25" />
     <TypeIdentifier>
       <HashCode>AAIAAACAAAAAAACEAAAABAAAAAAAEAAIAAgAAAAAAAA=</HashCode>
       <FileName>CommisionEmployee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OPPConcepts.Backend.BaseCommisionEmployee">
+    <Position X="0.75" Y="7.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ACAAACAAAAAAAAAEAAAAAAAAAAAAAAAIAAAAAAQAAAA=</HashCode>
+      <FileName>BaseCommisionEmployee.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

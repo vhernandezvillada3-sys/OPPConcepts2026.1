@@ -17,6 +17,11 @@ try
     employees.Add(employee5);
     var employee6 = new CommisionEmployee(2026, "Diego", "Rodriguez", true, new Date(1995, 5, 15), new Date(2022, 1, 1), 0.03f, 120000000);
     employees.Add(employee6);
+    var employee7 = new BaseCommisionEmployee(2027, "Laura", "Gomez", true, new Date(1995, 5, 15), new Date(2022, 1, 1), 0.015f, 250000000, 550000);
+    employees.Add(employee7);
+    var employee8 = new BaseCommisionEmployee(2028, "Andres", "Sanchez", true, new Date(1995, 5, 15), new Date(2026, 2, 10), 0.015f, 0, 550000);
+    employees.Add(employee8);
+
 
     foreach (var employee in employees)
     {
