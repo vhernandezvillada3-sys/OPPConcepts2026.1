@@ -13,6 +13,10 @@ try
     employees.Add(employee3);
     var employee4 = new HourlyEmployee(2024, "Carlos", "Garcia", true, new Date(1995, 5, 15), new Date(2022, 1, 1), 10000, 160);
     employees.Add(employee4);
+    var employee5 = new CommisionEmployee(2025, "Sofia", "Martinez", true, new Date(1995, 5, 15), new Date(2022, 1, 1), 0.03f, 600000000);
+    employees.Add(employee5);
+    var employee6 = new CommisionEmployee(2026, "Diego", "Rodriguez", true, new Date(1995, 5, 15), new Date(2022, 1, 1), 0.03f, 120000000);
+    employees.Add(employee6);
 
     foreach (var employee in employees)
     {
