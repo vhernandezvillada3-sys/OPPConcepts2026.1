@@ -21,9 +21,9 @@ try
     expenses.Add(employee7);
     var employee8 = new BaseCommisionEmployee(2028, "Andres", "Sanchez", true, new Date(1995, 5, 15), new Date(2026, 2, 10), 0.015f, 0, 550000);
     expenses.Add(employee8);
-    var invoice1 = new Invoice(2029, "Iphone 14 Pro Max", 2, 5000000);
+    var invoice1 = new Invoice(2029, "Iphone 14 Pro Max",new Date(2024,6,3),  2, 500000m);
     expenses.Add(invoice1);
-    var invoice2 = new Invoice(2030, "Samsung Galaxy S23 Ultra", 1, 4500000);
+    var invoice2 = new Invoice(2030, "Samsung Galaxy S23 Ultra",new Date (2026,7,2), 1, 450000m);
     expenses.Add(invoice2);
 
 
