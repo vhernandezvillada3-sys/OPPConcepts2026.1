@@ -4,7 +4,7 @@ using System.Text;
 
 namespace OPPConcepts.Backend
 {
-    public abstract class Employee
+    public abstract class Employee : IPay
     {
         //Constructors
 
